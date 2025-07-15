@@ -30,6 +30,7 @@ cd ragcar
 ```
 
   -  Este projeto já vem com o arquivo `.env.zip` pronto para uso (com as credenciais e variáveis configuradas). Basta você descompactar ele e na raiz do projeto
+  -  Ou se preferir crie um `.env`, copie e cole as credenciais abaixo
   ```bash
       # Ambiente de execução
       AMBIENT="local"
@@ -38,10 +39,10 @@ cd ragcar
       TOP_K=20
 
       # Chave da OpenAI (substitua pela sua!)
-      OPENAI_API_KEY=
+      OPENAI_API_KEY=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
 
       # Configurações do Pinecone
-      PINECONE_API_KEY=
+      PINECONE_API_KEY=pcsk_6KVpJC_65tiy8fvjJazyGkr7bg1tRJxSEgJ2C8xk55rjmWQ1kNwhdnUGKzQyHTe1PMCHcK
       PINECONE_ENVIRONMENT=us-east-1
       PINECONE_INDEX_NAME=car-index
 
