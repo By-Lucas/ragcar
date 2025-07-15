@@ -30,25 +30,24 @@ cd ragcar
 ```
 
   -  Este projeto já vem com o arquivo `.env.zip` pronto para uso (com as credenciais e variáveis configuradas). Basta você descompactar ele e na raiz do projeto
-    ```bash
-        # Ambiente de execução
-        AMBIENT="local"
+  ```bash
+      # Ambiente de execução
+      AMBIENT="local"
 
-        # Número de resultados retornados nas buscas vetoriais
-        TOP_K=20
+      # Número de resultados retornados nas buscas vetoriais
+      TOP_K=20
 
-        # Chave da OpenAI (substitua pela sua!)
-        OPENAI_API_KEY=
+      # Chave da OpenAI (substitua pela sua!)
+      OPENAI_API_KEY=
 
-        # Configurações do Pinecone
-        PINECONE_API_KEY=
-        PINECONE_ENVIRONMENT=us-east-1
-        PINECONE_INDEX_NAME=car-index
+      # Configurações do Pinecone
+      PINECONE_API_KEY=
+      PINECONE_ENVIRONMENT=us-east-1
+      PINECONE_INDEX_NAME=car-index
 
-        # Conexão com banco de dados (PostgreSQL)
-        DATABASE_URL=postgresql+asyncpg://postgres:123@localhost:5432/test_db
-
-    ```
+      # Conexão com banco de dados (PostgreSQL)
+      DATABASE_URL=postgresql+asyncpg://postgres:123@localhost:5432/test_db
+  ```
     
 ### 2 Crie e ative o ambiente virtual
 ```bash
