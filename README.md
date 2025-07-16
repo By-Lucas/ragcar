@@ -3,6 +3,10 @@
 Este projeto é um sistema inteligente com IA generativa (RAG) capaz de responder perguntas sobre veículos. Ele utiliza vetorização via **Pinecone**, raciocínio com **LangChain**, cache com **PostgreSQL** e interface via **FastAPI**.
 
 ![alt text](image.png)
+
+- Baixe e assista o video explicando o projeto [Assista ao vídeo](https://drive.google.com/file/d/1vsv5vYCZKcmooxT59ngnBoK2rssFOnj0/view?usp=sharing)
+
+
 ---
 
 ## Tecnologias utilizadas
